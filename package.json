@@ -1,0 +1,14 @@
+{
+  "name": "css-grid-demo",
+  "version": "1.0.0",
+  "description": "A demo showing the essentials of CSS grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jürgen Ratzenböck",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.7"
+  }
+}
