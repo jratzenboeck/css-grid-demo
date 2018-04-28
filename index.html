@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto;
+        }
+        .grid-container > div {
+            background: red;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-    <div>
+    <div class="grid-container">
         <div>1</div>
         <div>2</div>
         <div>3</div>
